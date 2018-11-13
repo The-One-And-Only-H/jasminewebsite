@@ -18,16 +18,18 @@ let name = document.createElement("h1");
   name.innerHTML = "Jasmine Evans";
   document.body.appendChild(name);
 
-// See image below with animation - play around with animation
+// See image below with animation
 let myImage = new Image(400, 400);
 myImage.src = 'jasmineprofilesqr.jpg';
 myImage.classList = "image";
 document.body.appendChild(myImage);
-let imageheight = 100;
+let imageopacity = 0.1;
 myImage.onclick = animate;
+
+//Insert if statement to stop opacity going beyond 1 ergo if imageopacity == 1 then stop running
 function animate(){
- imageheight *= 0.99;
- myImage.style.height = `${imageheight}px`;
+ imageopacity /= 0.99;
+ myImage.style.opacity = `${imageopacity}`;
  window.requestAnimationFrame(animate);
 }
 
