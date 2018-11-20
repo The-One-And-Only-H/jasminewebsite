@@ -25,12 +25,12 @@ myImage.classList = "image";
 document.body.appendChild(myImage);
 let imageopacity = 0.1;
 myImage.onclick = animate;
-
-//Insert if statement to stop opacity going beyond 1 ergo if imageopacity == 1 then stop running
 function animate(){
- imageopacity /= 0.99;
- myImage.style.opacity = `${imageopacity}`;
- window.requestAnimationFrame(animate);
+  if (imageopacity <= 1) {
+    imageopacity /= 0.99;
+    myImage.style.opacity = `${imageopacity}`;
+    window.requestAnimationFrame(animate);
+  }
 }
 
 // For loop broken down into two separate functions outside of onLoad function (See function one and two below)
