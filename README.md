@@ -5,4 +5,6 @@ I've noticed I learn and understand concepts better when I experiment with a pra
 
 So I set myself the challenge of building a website using as little HTML as possible, so as to encourage myself to utilise as much JS as possible. I've used jQuery in other projects and have used a small amount in this one also, but I have tried to keep this to a minimum in favour of writing in raw JS instead.
 
+This project is currently a WIP, but you can view it here: https://the-one-and-only-h.github.io/jasminewebsite/index.html
+
 
