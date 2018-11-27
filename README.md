@@ -7,4 +7,10 @@ So I set myself the challenge of building a website using as little HTML as poss
 
 This project is currently a WIP, but you can view it here: https://the-one-and-only-h.github.io/jasminewebsite/index.html
 
+Tech stack:
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+
 
